@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.dark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+  text-align: center;
+  border-radius: 15px;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100vh;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  height: 100vh;
+}
+.button {
+  font-size: 16px;
+  border: none;
+  border-radius: 18px;
+}
+.heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+}
